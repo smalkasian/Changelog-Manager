@@ -12,13 +12,16 @@
 # add_version(CURRENT_VERSION, CHANGES) #this will allow you to write changes to your log
 # get_server_info()  #this will make it print the server version to the console
 
+
+# Additionally, if you see (!!) you may need to change the variables or paths
+
 #-----------------------------------IMPORTS------------------------------------------
 import os
 
 
 #----------------------------------CONST VARS----------------------------------------
 
-CHANGELOG_FILE = "CHANGELOG.txt"
+CHANGELOG_FILE = "CHANGELOG.txt" # UPDATE THE PATH WHERE YOU WANT TO SAVE THE FILE(!!)
 
 #------------------------------------FUNCTIONS---------------------------------------
 def initialize_changelog():
