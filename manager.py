@@ -7,8 +7,10 @@
 #------------------------------------NOTES-------------------------------------------
 
 # ADD THIS TO YOUR CODE:
-# add_version(CURRENT_VERSION, CHANGES)
-# server_version = get_latest_version()
+# CURRENT_VERSION = "1.0.0" #Add your version number here
+# CHANGES = "Some changes and updates" #add your change comments here
+# add_version(CURRENT_VERSION, CHANGES) #this will allow you to write changes to your log
+# get_server_info()  #this will make it print the server version to the console
 
 #-----------------------------------IMPORTS------------------------------------------
 import os
